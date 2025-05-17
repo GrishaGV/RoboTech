@@ -1,0 +1,86 @@
+h1 {
+    text-align: center;
+}
+
+body {
+    background-color: #00CED1;
+    font-family: comic sans ms;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    font-weight: bold;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+header h1, a{
+    color: #00CED1;
+}
+
+header {
+    background-color: #444444;
+    padding: 15px;
+}
+
+.img1 {
+    width: 500px;
+}
+
+.glava {
+    display: flex;
+}
+
+.glava h3 {
+    margin: 10px;
+}
+
+.kurs {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.kurs img {
+    width: 300px;
+    height: 300px;
+}
+
+article {
+    margin: 10px;
+}
+
+.kurs article img:hover {
+    transform: scale(1.3);
+    transition: all 0.3s linear;
+}
+
+.proekti {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.proekti img {
+    width: 300px;
+    height: 300px;
+}
+
+footer {
+    background-color: #444444;
+    padding: 15px;
+}
+
+footer p {
+    color: #00CED1;
+}
+
+img {
+    border-radius: 10px;
+}
